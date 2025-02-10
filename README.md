@@ -8,7 +8,7 @@ Before running this program on your machine, make sure you have the following in
  - Python 
  - MongoDB 
  - Flask
- - Flask - cors (optional)
+ - Flask - cors 
 
 **Setup instructions**:
 
