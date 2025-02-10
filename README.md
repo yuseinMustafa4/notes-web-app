@@ -20,11 +20,11 @@ Before running this program on your machine, make sure you have the following in
 
 
 **Running the Application**:
-1. Once MongoDB is running, start and run the Flask application, which is app.py
+1. Once MongoDB is running, start and run the Flask application, which is **app.py**
 2. (By default, the Flask application will run on http://127.0.0.1:5000/, which you should see in the terminal. )
 3. Open the frontend
-   - navigate to the folder and you should be able to find index.html file
-   - you can directly run it to view the frontend or alternitvely visit http://127.0.0.1:8000 to view the frontend.
+   - navigate to the folder and you should be able to find **index.html** file
+   - you can **directly run it** to view the frontend or alternitvely visit http://127.0.0.1:8000 to view the frontend.
   
 **Troubleshooting**:
 1. If MongoDB is not running, run mongod in your terminal.
