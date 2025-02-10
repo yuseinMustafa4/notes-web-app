@@ -31,3 +31,4 @@ Before running this program on your machine, make sure you have the following in
 2. If you have port issues, try app.run(debug=True, port=5001).
 3. If you're running the frontend and backend on different ports, make sure CORS is properly configured. This project already includes the necessary CORS setup using the flask-cors library.
 
+**NOTE:** When you delete a note, the message is at the very bottom of the scrren, so if you cannot see it, **please scroll down and you will see it.** 
