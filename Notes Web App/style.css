@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin:auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) ;
+}
+
+h1 {
+    text-align: center;
+}
+
+input,textarea, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+
+}
+
+button {
+    background-color: cadetblue;
+    color: white;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #7cafb1;
+
+}
+
+hr{
+    margin-top: 20px;
+}

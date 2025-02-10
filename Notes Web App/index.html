@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>NOTES WEB APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Welcome to the NOTES WEB APP!</h1>
+
+        <!--To create a note - buttons and text fields-->
+        <h2>CREATE A NOTE</h2>
+        <form id="create-note-form">
+            <input type ="text" id="create-title" placeholder="Title of your note:" required>
+            <textarea id = "create-content" placeholder="Content of your note:" required></textarea>
+            <button type = "submit">CREATE NOTE</button>
+
+        </form>
+
+        <hr>
+<!--To read a note - buttons and text fields-->
+        <h2>READ A NOTE</h2>
+        <input type="text" id="read-note-id" placeholder="ID:">
+        <button id = "read-note-button">READ NOTE</button>
+        <div id="read-note"></div>
+
+<!--To update a note - buttons and text fields-->
+        <h2>UPDATE A NOTE</h2>
+        <input type="text" id="update-note-id" placeholder="Enter ID to update">
+        <input type="text" id="update-title" placeholder="New title">
+        <input type="text" id="update-content" placeholder="New content">
+        <button id="update-button">UPDATE NOTE</button>
+
+
+        <hr>
+
+
+<!--To delte a note - buttons and text fields-->
+        <h2>DELETE A NOTE</h2>
+        <input type ="text" id="delete-note-id" placeholder="ID: ">
+        <button id="delete-button"> DELETE NOTE</button>
+
+
+        <div id="delete-feedback">
+
+        </div>
+    <script src ="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
